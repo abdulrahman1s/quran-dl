@@ -1,0 +1,54 @@
+{
+	"name": "quran-dl",
+	"version": "0.1.0",
+	"description": "Quran.com Downloader",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node src/index.js",
+		"format": "prettier . --write"
+	},
+	"bin": {
+		"quran-dl": "src/index.js"
+	},
+	"type": "module",
+	"dependencies": {
+		"fetch-retry": "^5.0.3",
+		"kleur": "^4.1.5",
+		"node-fetch": "^3.2.10",
+		"ora": "^6.1.2",
+		"prompts": "^2.4.2"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.7"
+	},
+	"prettier": {
+		"printWidth": 120,
+		"useTabs": true,
+		"singleQuote": true,
+		"quoteProps": "as-needed",
+		"trailingComma": "none",
+		"endOfLine": "lf",
+		"semi": false
+	},
+	"engines": {
+		"node": ">=16"
+	},
+	"homepage": "https://github.com/abdulrahman1s/quran-dl#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/abdulrahman1s/quran-dl.git"
+	},
+	"bugs": {
+		"url": "https://github.com/abdulrahman1s/quran-dl/issues"
+	},
+	"license": "UNLICENSE",
+	"files": [
+		"src/*"
+	],
+	"keywords": [
+		"quran",
+		"downloader",
+		"cli",
+		"surah"
+	]
+}
